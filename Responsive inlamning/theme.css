@@ -1,0 +1,103 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    left: 0px;
+}
+
+body {
+    background-color: rgb(165, 157, 157);
+    width: auto;
+    height: auto;
+}
+
+.rubrik {
+    color: grey;
+}
+
+#header {
+    position: absolute;
+    top: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+  
+li {
+         float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: darkgrey;
+  }
+#menu {
+    top: auto;
+}
+
+.picture{
+    width: 790px;
+    height: 444px;
+    background-image:url(Pic/Ja.jpg);
+    background-color: aqua;
+    top: 200px;
+}
+
+#picture{
+    width: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position: relative;
+}
+@media only screen and (max-width: 1200px){
+    .picture{
+        background-image: url(Pic/Simon1.jpg);
+        width: 500px;
+        height: 445px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .picture{
+        background-image: url(Pic/Simon2.jpg);
+        width: 800px;
+        height: 448px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .picture{
+        background-image: url(Pic/Simon3.jpg);
+        width: 600px;
+        height: 445px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .rubrik{
+        font-size: 25px;
+    }
+    .picture{
+        background-image: url(Pic/Simon4.jpg);
+        width: 400px;
+        height: 296px;
+    }
+}
+@media only screen and (max-width: 650px){
+    li {
+        float: none;
+    }
+    #picture{
+        top: 200px;
+    }
+}
